@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts/scroll.js"></script>
 </head>
 <body>
 
@@ -30,6 +33,9 @@
             <nav>
                 <ul>
                     <li class="active">
+                      <a href="#">
+                        Press Kit
+                        </a>
                         <a href="#">
                             About Us
                         </a>
@@ -50,7 +56,7 @@
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
                 <a href="#" class="trailer"> <i class="fa-brands fa-youtube"></i>Watch trailer</a>
-                <a href="#" class="wishlist"> <i class="fa-brands fa-steam"></i>Wishlist+</a>
+                <a href="#buttons-main" class="wishlist"> <i class="fa-solid fa-square-plus"></i></i>Subscribe</a>
                 
                 
             </div>
@@ -95,11 +101,13 @@
           </div>
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
 
     <!--Thumbs-->
 
-    <div class="bg-slider-thumbs">
+   <div class="bg-slider-thumbs">
         <div class="swiper-wrapper thumbs-container">
           <img src="./img/1.jpg" class="swiper-slide" alt="">
           <img src="./img/2.jpg" class="swiper-slide" alt="">
@@ -179,7 +187,12 @@
           </div>
           
         </div>
-        <a href="#" class="btn"> Subscribe <br>to get free demo</br></a>
+        <div class="main-buttons" name="buttons-main">
+
+          <a href="#" class="btn"> Get Notified</a>
+          <a href="#" class="wishlist"><i class="fa-solid fa-vr-cardboard"></i></i>Oculus</a>
+          <a href="#" class="wishlist"> <i class="fa-brands fa-steam"></i>Steam</a>          
+        </div>
 
         <div class="socials">
           <a href="#"><i class="fa-brands fa-reddit"></i></a>
